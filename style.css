@@ -1,0 +1,161 @@
+* {
+	background-color: #FFFFFF;
+	}
+	
+body {
+	background-color: #FFFFFF;
+	}
+
+input {
+	height: 25px;
+	font-size: 18px;
+	text-align: center;
+	color: #0088E4;
+	border-color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+input:disabled {
+	height: 25px;
+	font-size: 18px;
+	text-align: center;
+	color: #666666;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+select {
+	height: 220px;
+	width: 140px;
+	font-size: 18px;
+	text-align: center;
+	color: #0088E4;
+	border-color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+option {
+	height: 25px;
+	font-size: 18px;
+	text-align: center;
+	color: #0088E4;
+	border-color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+a:link {
+	color: #0058FF;
+	background-color: #FFFFFF;
+}
+
+a:visited {
+	color: #0058FF;
+	background-color: #FFFFFF;
+}
+
+a:hover {
+	color: #6633ff;
+	background-color: #FFFFFF;
+}
+
+a:active {
+	color: #0058FF;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	font-size: xx-large;
+	color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+h2 {
+	font-size: x-large;
+	color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+h3 {
+	font-size: large;
+	color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+h4 {
+	font-size: medium;
+	color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+h5 {
+	font-size: small;
+	color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+h6 {
+	font-size: x-small;
+	color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+p {
+	font-size: 18px;
+	color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+legend {
+	font-size: large;
+	color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+table {
+	font-size: 18px;
+	color: #0088E4;
+	border-color: #0088E4;
+	background-color: #FFFFFF;
+}
+
+th {
+	font-size: 22px;
+	color: #0088E4;
+	text-decoration: none;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+img {
+	border-width:0px;
+}
+
+#zone_hash {
+	display: none;
+}
+
+#zone_crack {
+	display: none;
+}
+#zone_type_hash {
+
+}
+
+
+#zone_hash_msg {
+	background-color: #FFFFFF;
+	color: #ff0000;
+}
+#zone_crack_msg {
+	background-color: #FFFFFF;
+	color: #ff0000;
+}
+
+#zone_history {
+	display: none;
+	background-color: #FFFFFF;
+}
+
+#red {
+	color: #ff0000;
+}
