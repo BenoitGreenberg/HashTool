@@ -1,6 +1,6 @@
 <?php
 
-include('function.php');
+include 'function.php';
 $lang = get_language();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -10,8 +10,8 @@ $lang = get_language();
 <meta http-equiv="content-language" content="<?php echo $lang; ?>" />
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="robots" content="index,follow" />
-<meta name="keywords" content="<?php echo get_text('keyword',$lang); ?>" />
-<meta name="description" content="<?php echo get_text('description',$lang); ?>" />
+<meta name="keywords" content="<?php echo get_text('keyword', $lang); ?>" />
+<meta name="description" content="<?php echo get_text('description', $lang); ?>" />
 <meta name="rating" content="general" />
 <meta name="author" content="Benoît GRUNENBERGER" />
 <meta name="copyright" content="Benoît GRUNENBERGER" />
@@ -23,23 +23,23 @@ $lang = get_language();
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="function.js"></script>
 <script type="text/javascript" src="behavior.js"></script>
-<title><?php echo get_text('title',$lang); ?></title>
+<title><?php echo get_text('title', $lang); ?></title>
 
 </head>
 
 <body id="main" onload="start();">
 
-<input type="button" id="btn_hash" value="<?php echo get_text('to hash',$lang); ?>" />
+<input type="button" id="btn_hash" value="<?php echo get_text('to hash', $lang); ?>" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input type="button" id="btn_crack" value="<?php echo get_text('to crack',$lang); ?>" />
+<input type="button" id="btn_crack" value="<?php echo get_text('to crack', $lang); ?>" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input type="button" id="btn_history" value="<?php echo get_text('history',$lang); ?>" />
+<input type="button" id="btn_history" value="<?php echo get_text('history', $lang); ?>" />
 
 
 
 
 <div id="zone_hash">
-<p><?php echo get_text('hash string',$lang); ?></p>
+<p><?php echo get_text('hash string', $lang); ?></p>
 <input type="text" id="zone_hash_text" size="64" maxlength="128" />
 &nbsp;&nbsp;&nbsp;
 <span id="zone_hash_msg"></span>
@@ -86,11 +86,11 @@ $lang = get_language();
 <option value="haval224,5" >haval224,5</option>
 <option value="haval256,5" >haval256,5</option>
 </select>
-<input type="button" id="zone_hash_btn_all" value="<?php echo get_text('all',$lang); ?>" />
+<input type="button" id="zone_hash_btn_all" value="<?php echo get_text('all', $lang); ?>" />
 &nbsp;&nbsp;
-<input type="button" id="zone_hash_btn_none" value="<?php echo get_text('nothing',$lang); ?>" />
+<input type="button" id="zone_hash_btn_none" value="<?php echo get_text('nothing', $lang); ?>" />
 <br /><br />
-<input type="button" id="zone_hash_btn_hash" value="<?php echo get_text('to hash',$lang); ?>" disabled="disabled" />
+<input type="button" id="zone_hash_btn_hash" value="<?php echo get_text('to hash', $lang); ?>" disabled="disabled" />
 <br /><br />
 <div id="zone_hash_result"></div>
 
@@ -99,7 +99,7 @@ $lang = get_language();
 <!-- ------------------------------------------------------------- LIMIT HASH / CRACK ------------------------------------------------------------ !-->
 
 <div id="zone_crack">
-<p><?php echo get_text('crack hash',$lang); ?></p>
+<p><?php echo get_text('crack hash', $lang); ?></p>
 <input type="text" id="zone_crack_text" size="64" maxlength="128" />
 &nbsp;&nbsp;&nbsp;
 <span id="zone_crack_msg"></span>
@@ -144,11 +144,11 @@ $lang = get_language();
 <option value="haval224,5" >haval224,5</option>
 <option value="haval256,5" >haval256,5</option>
 </select>
-<input type="button" id="zone_crack_btn_all" value="<?php echo get_text('all',$lang); ?>" />
+<input type="button" id="zone_crack_btn_all" value="<?php echo get_text('all', $lang); ?>" />
 &nbsp;&nbsp;
-<input type="button" id="zone_crack_btn_none" value="<?php echo get_text('nothing',$lang); ?>" />
+<input type="button" id="zone_crack_btn_none" value="<?php echo get_text('nothing', $lang); ?>" />
 <br /><br />
-<input type="button" id="zone_crack_btn_crack" value="<?php echo get_text('to crack',$lang); ?>" disabled="disabled" />
+<input type="button" id="zone_crack_btn_crack" value="<?php echo get_text('to crack', $lang); ?>" disabled="disabled" />
 <br /><br />
 <div id="zone_crack_result"></div>
 
